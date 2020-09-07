@@ -50,6 +50,9 @@ function namechange() {
 document.getElementById("user-right").innerHTML = document.getElementById("custom-name-input").value
 }
 
+function timechange() {
+document.getElementById("time").innerHTML = document.getElementById("custom-time-input").value
+}
 
 $("#infoselected").click(function(){
 $("http://fleeuestc.numbguy.top/div.info").hide();
