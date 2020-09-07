@@ -55,7 +55,7 @@ document.getElementById("time").innerHTML = document.getElementById("custom-time
 }
 
 $("#infoselected").click(function(){
-$("http://fleeuestc.numbguy.top/div.info").hide();
+$("https://uestcwcw.github.io/uestcwcw/div.info").hide();
 data.time = formatTime(new Date())
 console.log(data.time)
 document.getElementById("time").innerHTML = data.time;
